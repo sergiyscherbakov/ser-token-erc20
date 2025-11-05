@@ -1,0 +1,36 @@
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Documents
+*.xlsx
+*.docx
+*.pdf
+*.txt
+
+# HTML files
+*.html
+
+# Node modules
+node_modules/
+
+# Hardhat files
+cache/
+artifacts/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/

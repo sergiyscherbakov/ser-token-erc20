@@ -1,0 +1,29 @@
+{
+  "name": "ser-token-erc20",
+  "version": "1.0.0",
+  "description": "SER Token - Basic ERC20 token implementation with Hardhat",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:sertoken": "hardhat run scripts/SERToken.js"
+  },
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "erc20",
+    "token",
+    "hardhat",
+    "solidity"
+  ],
+  "author": "Sergiy Shcherbakov <sergiyscherbakov@ukr.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}
